@@ -1,3 +1,4 @@
+import anvil.server
 import ollama
 
 stream = ollama.chat(
