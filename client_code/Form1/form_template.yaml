@@ -33,3 +33,7 @@ components:
   properties: {}
   type: ColumnPanel
   layout_properties: {slot: left-nav}
+- name: text_box_1
+  properties: {text: CusmatoLLM}
+  type: TextBox
+  layout_properties: {slot: title}

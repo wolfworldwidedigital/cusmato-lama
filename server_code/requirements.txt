@@ -1,6 +1,0 @@
-openai==1.23.2<
-arxiv==2.1.0
-langchain==0.1.16
-PyMuPDF==1.24.2
-tiktoken==0.6.0
-chromadb==0.4.24

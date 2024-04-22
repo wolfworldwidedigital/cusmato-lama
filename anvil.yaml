@@ -3,14 +3,15 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+startup: {type: module, module: Streaming}
 package_name: LLM___AI
-allow_embedding: false
+allow_embedding: true
 name: LLM - AI
 runtime_options:
   version: 2
   client_version: '3'
   server_version: python3-sandbox
-  server_spec: {base: python310-standard}
+  server_spec: {base: python310-machine-learning}
 metadata: {title: LLM - AI, logo_img: 'asset:cusmato.png'}
-startup_form: Form1
+startup_form: null
 renamed: true
